@@ -17,5 +17,5 @@ ADD src/ /src
 
 # .base.tplxを利用
 RUN mkdir -p ~/texmf/tex/latex/local/
-RUN cp /src/.jalinebreak.tplx ~/texmf/tex/latex/local/jalinebreak.tplx
+RUN cp /src/.jalinebreak.sty ~/texmf/tex/latex/local/jalinebreak.sty
 RUN cp /src/.base.tplx /usr/local/lib/python3.6/dist-packages/nbconvert/templates/latex/base.tplx
